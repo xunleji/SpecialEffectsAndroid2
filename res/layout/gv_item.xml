@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#dcdcdc">
+    
+    <ImageView 
+        android:id="@+id/gv_item_iv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/zzz_skin_white_personal_qzone"/>
+    
+    <TextView 
+        android:id="@+id/gv_item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ空间"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="15dp"/>
+
+</LinearLayout>

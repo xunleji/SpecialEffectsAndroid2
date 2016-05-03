@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <LinearLayout
+            android:id="@+id/homeLeft"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+	        <ListView
+	            android:id="@+id/homeLeftlv"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:listSelector="@null"
+	            android:cacheColorHint="#00000000"
+        		android:fadingEdge="none">
+	            
+	        </ListView>
+	        
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:id="@+id/homeRight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+				<include layout="@layout/right"/>
+
+        </LinearLayout>
+
+        <com.example.androidsdk.jar.qqhuadong.HomeCenterLayout
+            android:id="@+id/homeCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/darker_gray"
+                android:orientation="horizontal" >
+
+                <include layout="@layout/common_title_bg" />
+            </LinearLayout>
+        </com.example.androidsdk.jar.qqhuadong.HomeCenterLayout>
+        
+    </FrameLayout>
+
+</LinearLayout>
