@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Welcome to Mr Wei's blog."/>
+    
+	<LinearLayout
+	  	android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/previous"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:text="上一首"/>
+		<Button
+			android:id="@+id/play"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:text="播放"/>
+		<Button
+			android:id="@+id/next"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:text="下一首"/>
+		<Button
+			android:id="@+id/pause"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:text="暂停"/>
+	</LinearLayout>
+
+</LinearLayout>

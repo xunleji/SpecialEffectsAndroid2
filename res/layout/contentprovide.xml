@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+	<Button 
+	    android:id="@+id/btnadd"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="add"/>
+	
+	<Button 
+	    android:id="@+id/btnquery"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="query"/>
+	
+	<Button 
+	    android:id="@+id/btndelete"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="delete"/>
+	
+	<Button 
+	    android:id="@+id/btnupdate"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="update"/>
+	
+	<ListView 
+	    android:id="@+id/lv"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:cacheColorHint="#00000000"
+	    android:background="#000000"
+	    android:listSelector="#00000000">
+	    
+	</ListView>
+	
+</LinearLayout>

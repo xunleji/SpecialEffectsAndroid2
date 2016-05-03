@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.example.androidsdk.jar.huadong.FlingGalleryView
+        android:id="@+id/bottomtabtop"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottomtabbottom" >
+
+        <include
+            android:id="@+id/top1"
+            layout="@layout/bottomleft" />
+
+        <include
+            android:id="@+id/top2"
+            layout="@layout/bottomcenter" />
+
+        <include
+            android:id="@+id/top3"
+            layout="@layout/bottomright" />
+
+        <include
+            android:id="@+id/top4"
+            layout="@layout/bottomleft" />
+
+        <include
+            android:id="@+id/top5"
+            layout="@layout/bottomcenter" />
+    </com.example.androidsdk.jar.huadong.FlingGalleryView>
+
+    <LinearLayout
+        android:id="@+id/bottomtabbottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#458B00"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/bottom1"
+            layout="@layout/bottomtabitem" />
+
+        <include
+            android:id="@+id/bottom2"
+            layout="@layout/bottomtabitem" />
+
+        <include
+            android:id="@+id/bottom3"
+            layout="@layout/bottomtabitem" />
+
+        <include
+            android:id="@+id/bottom4"
+            layout="@layout/bottomtabitem" />
+
+        <include
+            android:id="@+id/bottom5"
+            layout="@layout/bottomtabitem" />
+    </LinearLayout>
+
+</RelativeLayout>

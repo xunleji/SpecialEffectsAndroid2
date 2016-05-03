@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xml_api_reply version="1">
+	<weather section="0" row="0" mobile_zipped="1" mobile_row="0" tab_id="0" module_id="0">
+		<forecast_information>
+			<city data="">
+				<postal_code data="">
+					<latitude_e6 data="34720001">
+						<longitude_e6 data="113650001">
+							<forecast_date data="2011-03-08">
+								<current_date_time data="2011-03-08 14:00:00 +0000">
+									<unit_system data="SI">
+									</unit_system>
+								</current_date_time>
+							</forecast_date>
+						</longitude_e6>
+					</latitude_e6>
+				</postal_code>
+			</city>
+		</forecast_information>
+		<current_conditions>
+			<condition data="晴">
+				<temp_f data="">
+					<temp_c data="">
+						<humidity data="湿度： 61%">
+							<icon data="/ig/images/weather/sunny.gif">
+								<wind_condition data="风向： 北、风速：0 米/秒">
+								</wind_condition>
+							</icon>
+						</humidity>
+					</temp_c>
+				</temp_f>
+			</condition>
+		</current_conditions>
+		<forecast_conditions>
+			<day_of_week data="周二">
+				<low data="3">
+					<high data="16">
+						<icon data="/ig/images/weather/sunny.gif">
+							<condition data="晴">
+							</condition>
+						</icon>
+					</high>
+				</low>
+			</day_of_week>
+		</forecast_conditions>
+		<forecast_conditions>
+			<day_of_week data="周三">
+				<low data="2">
+					<high data="12">
+						<icon data="/ig/images/weather/cn_cloudy.gif">
+							<condition data="多云">
+							</condition>
+						</icon>
+					</high>
+				</low>
+			</day_of_week>
+		</forecast_conditions>
+		<forecast_conditions>
+			<day_of_week data="周四">
+				<low data="2">
+					<high data="15">
+						<icon data="/ig/images/weather/sunny.gif">
+							<condition data="晴">
+							</condition>
+						</icon>
+					</high>
+				</low>
+			</day_of_week>
+		</forecast_conditions>
+	</weather>
+</xml_api_reply>
